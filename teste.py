@@ -16,7 +16,7 @@ time = tabela ["tempo"]
 
 item = tabela ["item"]
 
-part = tabela ["particpante"]
+part = tabela ["participante"]
 
 prime = tabela ["prime"]
 
@@ -24,15 +24,34 @@ soa = tabela ["SOA"]
 
 resp = tabela ["resposta"]
 
+#conta o numero de linhas da tabela
+line = len(tabela)
+print(line)
 
-#criar laço de repetição 
-a = 1
 
-line = tabela.loc[a]
+
+
+#soma = 0
+#pd.array in tabela [len,time] (1)
+#soma = line + 1
+
+#média = soma / n
+
+
+
+
+
+
 
 #3 Analise
-def freq (time, prime):
- return time * prime 
+def freq (time):
+    return 
 
-freq in tabela ()
-print(freq)
+    freq in line 
+    print(freq)
+
+
+#criar laço de repetição 
+
+
+
